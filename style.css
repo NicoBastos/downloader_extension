@@ -1,0 +1,21 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap"); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tab-selected {
+  background-color: #ef5222; /* blue-500 */
+  color: white;
+}
+.tab-selected:hover {
+  color: #c7421a; /* Keeps the blue color even on hover */
+}
+
+.myButton {
+  background-color: #ef5222; /* blue-500 */
+  color: white;
+}
+
+.myButton:hover {
+  background-color: #c7421a;
+}
